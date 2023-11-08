@@ -20,7 +20,7 @@
             </ul>
         </nav>        
     </header>
-    <section>
+    <main>
         <section>
             <h2>About</h2>
             <p>Hello!<br>
@@ -81,17 +81,24 @@
         <section>
             <h2>Contact</h2>
             <p>Please fill out this form and I'll connect with you soon.</p>
-            <p>
-                Your contact information<br>
-                Name (Your full name)<br>
-                Email (Enter your email address)<br>
-                Message (What can I help you with?)<br>
-                Submit
-            </p>            
+            
+            <form>
+                <h2>Your contact information</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email address">
+
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="What can I help you with?">
+
+                <input type="submit" id="submit" value="Submit">
+            </form>
         </section>
-        <footer>
-            <p><small>Copyright 2021 TK Photography</small></p>
-        </footer>        
-    </section>
+    </main>
+    <footer>
+        <p><small>Copyright 2021 TK Photography</small></p>
+    </footer>
 </body>
 </html>
