@@ -13,20 +13,20 @@
         <nav>
             <h2>Navigation</h2>
             <ul>
-                <li>About</li>
-                <li>Gallery</li>
-                <li>Contact</li>
-                <li>top</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top">top</a></li>
             </ul>
         </nav>        
     </header>
     <main>
-        <section>
+        <section id="about">
             <h2>About</h2>
             <p>Hello!<br>
             I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>            
         </section>
-        <section>
+        <section id="gallery">
             <h2>Gallery</h2>
             <p>Here are some highlights of my work. The locations and year are in the caption.</p>
             <figure>
@@ -78,20 +78,20 @@
                 <figcaption>Wyoming, 2021</figcaption>
             </figure>
         </section>
-        <section>
+        <section id="contact">
             <h2>Contact</h2>
             <p>Please fill out this form and I'll connect with you soon.</p>
             
             <form>
                 <h2>Your contact information</h2>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your full name">
+                <input type="text" id="name" name="name" placeholder="Your full name"><br>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Enter your email address">
+                <input type="text" id="email" name="email" placeholder="Enter your email address"><br>
 
                 <label for="message">Message</label>
-                <input type="text" id="message" name="message" placeholder="What can I help you with?">
+                <input type="text" id="message" name="message" placeholder="What can I help you with?"><br>
 
                 <input type="submit" id="submit" value="Submit">
             </form>
