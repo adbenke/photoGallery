@@ -9,6 +9,7 @@ body{
 }
 nav{
     text-align: center;
+    padding-bottom: 15px;
 }
 nav li {
     display:inline-flex;
@@ -37,6 +38,7 @@ main{
 p{
     font-size: 1.25em;
     padding: 10px;
+    line-height: 30px;
 }
 figcaption, label, input, small {
     font-size: 1em;
@@ -49,14 +51,35 @@ h1{
     text-align: center;
     color: #007d7b;
     background-color: #fff;
+    text-transform:uppercase;
+    padding: 10px 0px;
 }
 h2 {
     font-size: 2em;
     text-align: center;
     text-transform:uppercase;
+    margin: 0px;
+}
+#about h2{
+    padding-top: 10px;
 }
 #contact{
     background-color:#000;
     color:#fff;
+    text-align: center;
+
+}
+form h2 {
+    visibility:hidden;
+    height:0px;
+}
+figure{
+    display:grid;
+}
+figcaption{
+    text-transform:uppercase;
+}
+figcaption:nth-child(2){
+    /* color: #fff; */
     text-align: center;
 }
