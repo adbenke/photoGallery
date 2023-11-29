@@ -193,6 +193,9 @@ footer{
     form input[type="submit"]{
         width:400px;
     }
+    fieldset input{
+        width:700px;
+    }
     footer{
         padding-left: 100px;
     }
@@ -219,6 +222,9 @@ footer{
     }
     form input[type="submit"]{
         width:600px;
+    }
+    fieldset input{
+        width:1000px;
     }
     footer{
         padding-left: 100px;
