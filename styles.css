@@ -110,6 +110,14 @@ img[src="images/Ireland.png"] ~ figcaption{
     padding: 10px 30px;
     padding-bottom: 20px;
 }
+fieldset{
+    border:#000 solid 1px;
+    padding: 0px;
+    margin: 0 auto;
+}
+fieldset legend{
+    visibility:hidden;
+}
 form{
     display:grid;
     padding: 0px 20px;
@@ -119,16 +127,20 @@ form h2 {
     visibility:hidden;
     height:0px;
 }
-form label{
+fieldset label{
 	display: block;
     text-align: left;
     margin-left: 10px;
+    padding-top: 5px;
 	text-transform: uppercase;
 }
-form input{
+fieldset input{
     padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 380px;
 }
-form input[type="submit"]{
+input[type="submit"]{
     background-color: #007d7b;
     color:#fff;
     text-transform: uppercase;
@@ -137,6 +149,7 @@ form input[type="submit"]{
     border-radius: 15px;
     width: 250px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 input::placeholder{
     color:#007d7b;
